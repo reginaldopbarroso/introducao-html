@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('./imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho, .principal, .rodape{
+    padding-inline: 2rem;
+}
+
+.titulo, .subtitulo, .secao__paragrafo, .rodape__paragrafo{
+    color: rgb(255, 255, 255);
+}
+
+.cabecalho{
+    background-color: rgba(0, 0, 0, .5);
+    padding-block: 1.5rem;
+}
+
+.titulo{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.secao{
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.secao--58{
+    background-color: rgba(0, 95, 158, 0.5);
+}
+
+.secao--02{
+    background-color: rgba(172, 0, 0, 0.5);
+}
+
+.secao--22{
+    background-color: rgba(158, 148, 0, 0.5);
+}
+
+.secao__imagem{
+    aspect-ratio: 16 / 9;
+    border-radius: 1rem;
+    object-fit: cover;
+    width: 30%;
+}
+
+.subtitulo{
+    font-weight: 500;
+}
+
+.secao__paragrafo{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-top: .5rem;
+    text-align: justify;
+}
+
+.rodape{
+    background-color: rgba(0, 0, 0);
+    margin-top: 1.5rem;
+    padding-block: 1.5rem;
+}
+
+.rodape__paragrafo{
+    margin-top: 0.5rem;
+}
